@@ -5,6 +5,7 @@ body {
     background-image: url('to.jpg'); 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Keep background image fixed */
     color: #fff;
 }
 
@@ -51,6 +52,8 @@ ul {
 
 li {
     margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
 }
 
 .task-complete {
