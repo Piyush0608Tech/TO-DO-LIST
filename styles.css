@@ -2,15 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('to.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -21,12 +25,16 @@ input[type="text"] {
     width: 70%;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Add transparency for better visibility */
+    color: #000; /* Change text color to black for better readability */
+    border: 1px solid #000; /* Add black border */
+    border-radius: 5px;
 }
 
 button {
     padding: 10px 20px;
     background-color: #007bff;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
